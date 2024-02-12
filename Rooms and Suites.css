@@ -1,0 +1,300 @@
+body{
+    margin: 0px;
+}
+
+#navBar img{
+    float: left;
+ margin-left: 13%;
+width: 80px;
+height: 70px;
+margin-top: 18px;
+}
+#navBarbutt{
+    float: left;
+    margin-left: 20%;
+}
+#navBar button{
+    margin-left: 40px;
+    margin-top: 30px;
+    font-size: 18px;
+    border: none;
+    background-color: white;
+    font-family: 'Source Sans Pro';
+
+    
+    }
+   #booking button{
+    margin-left: 55px;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 18px;
+	width: 150px;
+	padding: 12px 22px;
+	border-radius: 4px;
+    background-color: #c9a633;
+     color: white;
+    border: 1px solid #c9a633;
+    font-family: 'Source Sans Pro';
+
+
+}
+    
+    
+    #booking:hover{
+        transform: translatey(-2px);
+    }
+    .middle {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1.5rem;
+    }
+    .page-header {
+        font-size: 40px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    hr{
+        width: 129px;
+        text-align: center;
+        border-top: 1.5px solid #d4af37;
+
+    }
+    .page-sec-header{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+   }
+   .special-offers{
+
+    display: block;
+}
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.image-col {
+    margin-right: 7%;
+}
+.col {
+    padding: 5px;
+
+}
+.large-image-container {
+    margin-right: 7px;
+}
+image-col img {
+    margin: 5px;
+}
+.stacked-image-container {
+    flex-direction: column;
+    margin-top: -55%;
+    margin-left: 72%;
+}
+.image-col img {
+    margin: 5px;
+}
+.small-image {
+    height: 105px;
+}
+.offers-list {
+    list-style: none;
+    margin-bottom: 30px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+}
+.list-icon {
+    height: 17px;
+    margin-left: 170px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.Book{
+    margin-left: 170px;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 18px;
+	width: 150px;
+	padding: 12px 22px;
+	border-radius: 4px;
+    background-color: #c9a633;
+    border: 1px solid #c9a633;
+    font-family: 'Source Sans Pro';
+    color: #fff;
+}
+.Book:hover{
+    transform: translatey(-2px);
+
+}
+.offers-title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.offers-sub-title{
+margin-left: 170px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.list-text{
+    margin-top: -20px;
+margin-left: 40%;
+
+}
+.room-section-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: left;
+    margin-left: 13%
+    
+    
+}
+.active-header::after{
+    display: block;
+    height: 1px;
+    background-color: #D4AF37;
+    content: "";
+    width: 90px;
+    margin: 15px auto 0;
+}
+.row-center{
+
+float: left;
+
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+    
+}
+
+.ghost{
+    color: #D4AF37;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #D4AF37;
+    text-transform: uppercase;
+    font-size: 55%;
+    padding: 10px 18px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-right: 10px 
+
+
+}
+.ghost:hover, .ghost::after{
+    background-color: #D4AF37;
+    color: #fff;
+}
+
+
+.fill{
+    background-color: #D4AF37;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #D4AF37;
+    text-transform: uppercase;
+    font-size: 55%;
+    padding: 10px 18px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-right: 10px;
+
+}
+.fill:hover,.fill::after{
+    background-color: #c9a633;
+    border: 1px solid #c9a633;
+
+}
+
+.list-icon{
+    margin-left: 1px;
+}
+.rooms-co2{
+    float: left;
+margin-left: 130%;
+margin-top: -106.8%;
+
+}
+.footer {
+    margin-top: 75%;
+	background-color: #241e09;
+	color: #fff;
+   min-height: 220px;
+   width: 1550px;
+}
+
+.footer-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	min-height: 240px;
+	font-size: 18px;
+}
+
+.footer-nav {
+	display: grid;
+	justify-items: start;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.footer-description {
+    text-align: center;
+   max-width: 210px;
+   justify-self: start;
+}
+
+.footer-description-title {
+    width: 150px;
+margin-left:120px ;
+	margin-bottom: 24px;
+    font-size: 20px;
+}
+
+.footer-description-detail {
+	display: flex;
+	align-items: center;
+    margin-bottom: 12px;
+    margin-top: -19px;
+    margin-left: 40px;
+
+}
+
+.footer-description-icon {
+    height: 20px;
+    width: 20px;
+
+}
+
+.footer-follow-us-lists {
+	display: flex;
+	text-decoration: none;
+   list-style-type: none;
+}
+
+.follow-us-list {
+   justify-self: start;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
